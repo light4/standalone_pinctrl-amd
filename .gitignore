@@ -1,0 +1,8 @@
+*.o
+*.ko
+*.a
+*.mod
+.*.cmd
+modules.order
+
+.ccls-cache/
