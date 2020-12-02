@@ -2,7 +2,7 @@ ifndef KDIR
 	KDIR = /lib/modules/$(shell uname -r)/build
 endif
 ifndef DRIVER_DIR
-	DRIVER_DIR = /lib/modules/$(shell uname -r)/kernel/drivers/pinctrl-amd/
+	DRIVER_DIR = /lib/modules/$(shell uname -r)/kernel/drivers/pinctrl/
 endif
 
 obj-m := pinctrl-amd.o
